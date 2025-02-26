@@ -1,0 +1,58 @@
+.skills {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+    background: #D1D0D0;
+    margin-top: 20px;
+}
+
+.skills-container {
+    width: 100%;
+    max-width: 1200px;
+    text-align: center;
+}
+
+.skills h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Horizontal Scrollable Row */
+.skills-list {
+    display: flex;
+    overflow-x: auto;
+    white-space: nowrap;
+    gap: 50px;
+    padding: 20px;
+    scroll-behavior: smooth;
+}
+
+/* Custom Scrollbar */
+.skills-list::-webkit-scrollbar {
+    height: 8px;
+}
+
+.skills-list::-webkit-scrollbar-thumb {
+    background: #363e47;
+    border-radius: 5px;
+}
+
+/* Skill Items */
+.skills-list a {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #f74c06;
+    color: #fdfdfd;
+    text-decoration: none;
+    border-radius: 12px;
+    font-weight: bold;
+    transition: 0.3s;
+    min-width: 120px;
+    text-align: center;
+}
+
+.skills-list a:hover {
+    background: #c9d2dc;
+}

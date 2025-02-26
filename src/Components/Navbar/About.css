@@ -1,0 +1,23 @@
+.about {
+    padding: 80px 20px;
+    background-color:#988686;
+    text-align: center;
+}
+
+.about-container {
+    max-width: 900px;
+    margin: auto;
+}
+
+.about h2 {
+    font-size: 2.5rem;
+    color: #007bff;
+    margin-bottom: 20px;
+}
+
+.about p {
+    font-size: 1.2rem;
+    color: #333;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}

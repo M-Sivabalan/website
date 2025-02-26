@@ -1,0 +1,33 @@
+.contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    background-color: #f8f9fa;
+    text-align: center;
+}
+
+.contact-container {
+    display: flex;
+    flex-direction: row; /* Arrange items in a row */
+    justify-content:flex-start;
+    gap: 10px; /* Adds spacing between items */
+    flex-wrap: wrap; /* Ensures responsiveness */
+    padding: 20px;
+}
+
+.contact-container p {
+    margin: 0;
+    font-size: 1.2rem;
+}
+
+.contact-container a {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.contact-container a:hover {
+    text-decoration: underline;
+    color: #0056b3;
+}

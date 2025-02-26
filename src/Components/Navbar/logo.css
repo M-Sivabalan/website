@@ -1,0 +1,40 @@
+.logo-container {
+    position: relative;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.logo {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.dropdown {
+    position: absolute;
+    top: 60px;
+    left: 0;
+    background: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 150px;
+    border-radius: 5px;
+    display: none;
+    flex-direction: column;
+}
+
+.dropdown a {
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+    display: block;
+}
+
+.dropdown a:hover {
+    background-color: #007bff;
+    color: white;
+}
+
+/* Show dropdown when 'show' class is added */
+.dropdown.show {
+    display: flex;
+}
